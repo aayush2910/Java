@@ -109,19 +109,20 @@ public class New {
 }*/
 
 public class New {
-    public static void main(String[] args) {
-        boolean result = areEqualByThreeDecimalPlaces(3.174,3.175);
-        System.out.println(result);
-    }
-        public static boolean areEqualByThreeDecimalPlaces(double a, double b){
-//            double A = Math.round(a);
-//            double B = Math.round(b);
-            if(a != b){
-                return false;
-            }else{
-                return true;
-            }
-        }
+//    public static void main(String[] args) {
+//        boolean result = areEqualByThreeDecimalPlaces(3.174,3.175);
+//        System.out.println(result);
+//    }
+//        public static boolean areEqualByThreeDecimalPlaces(double a, double b){
+//
+//        }
+public static void main(String[] args) {
+    int a =18;
+    String age = a >= 18 ? "Dl can issue." : "Dl can not issue";
+
+    System.out.println("The man's "+(age));
+
+}
 
 
 }
